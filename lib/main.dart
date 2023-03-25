@@ -22,13 +22,15 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Expense Manger'),
       ),
-      body: Column(
-        // mainAxisAlignment: MainAxisAlignment.spaceAround,
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: <Widget>[
-          Container(),
-          UserTransaction(),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          // mainAxisAlignment: MainAxisAlignment.spaceAround,
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: <Widget>[
+            Container(),
+            UserTransaction(),
+          ],
+        ),
       ),
     );
   }
