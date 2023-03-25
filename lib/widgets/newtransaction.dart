@@ -33,6 +33,7 @@ class NewTransaction extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           TextField(
+            
             decoration: InputDecoration(labelText: 'Title'),
             controller: textController,
             
